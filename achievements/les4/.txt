@@ -1,0 +1,13 @@
+<a-gltf-model src="assets/models/minecraft/scene.gltf" visible="" width="1" height="1" position="0.08085 1.54 -5" rotation="0 -36.95 0" scale="0.36077 0.1 0.1" id="webxrElement1" gltf-model="assets/models/minecraft/scene.gltf"></a-gltf-model>
+
+<a-gltf-model 
+src="assets/models/minecraft/scene.gltf" 
+visible="" 
+width="1" 
+height="1" 
+position="0.08085 1.54 -5" 
+rotation="0 -36.95 0" 
+scale="0.36077 0.1 0.1" 
+id="webxrElement1" 
+gltf-model="assets/models/minecraft/scene.gltf">
+</a-gltf-model>
