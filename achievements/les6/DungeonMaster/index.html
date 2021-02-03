@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Dungeon Master</title>
+    </head>
+    <body>
+        <h1 id="button">Klik op mij!</h1>
+        <h1 id="resultaat"></h1>
+    </body>
+    <script>
+        document.getElementById("button")
+        .addEventListener("click", rollingForStats);
+        
+        function rollingForStats()
+        {
+            var tekstresultaat = "Je gegenereerde getal is: ";
+            var arraynumbers = []
+            for (var i = 0; i < 4; i++)
+            {
+                var randomnumber = Math.floor((Math.random() * 6) + 1)
+                arraynumbers.push(randomnumber)
+            }
+            arraynumbers = arraynumbers.sort(function(a, b){return b-a});
+            var berekeninggetal = arraynumbers[0] + arraynumbers[1] + arraynumbers[2]
+            document.getElementById("resultaat").innerHTML = tekstresultaat + berekeninggetal
+        }    
+    </script>
+</html>
+    
